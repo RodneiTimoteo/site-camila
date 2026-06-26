@@ -8,6 +8,7 @@ import CTA from "@/components/sections/CTA";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -29,13 +30,7 @@ export default function Home() {
           }}
         />
 
-        <Section id="sobre" className="bg-slate-50">
-          <SectionTitle
-            eyebrow="Sobre o Starter Kit"
-            title="Uma estrutura sólida para projetos profissionais."
-            description="Componentes reutilizáveis, conteúdo organizado e uma arquitetura preparada para sites institucionais e landing pages."
-          />
-        </Section>
+        <About />
 
         <Features />
 
