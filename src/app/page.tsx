@@ -9,6 +9,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
+import Experience from "@/components/sections/Experience";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
 
         <About />
 
-        <Features />
+        <Experience />
 
         <Testimonials />
 
@@ -47,8 +48,8 @@ export default function Home() {
             href: "#contato",
           }}
           secondaryAction={{
-            label: "Conhecer recursos",
-            href: "#recursos",
+            label: "Ver experiência",
+            href: "#experiencia",
           }}
         />
       </main>
