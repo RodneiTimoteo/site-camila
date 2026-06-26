@@ -1,14 +1,26 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
+
+import { siteConfig } from "@/data/site";
+
 import "./globals.css";
 
-const geist = Geist({
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Starter Next Premium",
-  description: "Template profissional desenvolvido com Next.js",
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.shortName}`,
+  },
+  description: siteConfig.description,
 };
 
 export default function RootLayout({
@@ -19,12 +31,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`
-          ${geist.className}
-          bg-white
-          text-slate-900
-          antialiased
-        `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

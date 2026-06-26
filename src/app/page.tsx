@@ -15,17 +15,17 @@ export default function Home() {
       <Header />
 
       <main>
-        <Hero
-          eyebrow="Starter Kit Premium"
-          title="Uma base profissional para criar sites modernos com mais rapidez."
-          description="Next.js, TypeScript, Tailwind CSS, Shadcn/UI e componentes reutilizáveis organizados para projetos reais."
+       <Hero
+          eyebrow="Dados • Liderança • Produtividade"
+          title="Transformando experiência em conhecimento, resultados e impacto."
+          description="Conheça a trajetória de Camila Timóteo Vieira, sua atuação em dados e analytics, experiências em liderança e projetos voltados à produtividade."
           primaryAction={{
-            label: "Conhecer estrutura",
+            label: "Conhecer trajetória",
             href: "#sobre",
           }}
           secondaryAction={{
-            label: "Entrar em contato",
-            href: "#contato",
+            label: "Ver cursos",
+            href: "#cursos",
           }}
         />
 
