@@ -10,6 +10,7 @@ import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
+import Achievements from "@/components/sections/Achievements";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
         <About />
 
         <Experience />
+        
+        <Achievements />
 
         <Testimonials />
 
