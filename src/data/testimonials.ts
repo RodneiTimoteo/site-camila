@@ -1,23 +1,16 @@
 export const testimonials = [
   {
-    name: "Mariana Souza",
-    role: "Diretora de Marketing",
-    company: "Empresa Exemplo",
+    name: "Fabio Nascimento",
+    role: "Recomendação profissional",
+    company: "LinkedIn",
     content:
-      "A estrutura deixou o desenvolvimento muito mais rápido e organizado. Conseguimos lançar o projeto com excelente qualidade.",
+      "Camila se destaca pela liderança, ética, humanidade e capacidade de conduzir equipes com responsabilidade e visão estratégica.",
   },
   {
-    name: "Carlos Almeida",
-    role: "Empresário",
-    company: "Almeida Consultoria",
+    name: "Daniel Lage",
+    role: "Recomendação profissional",
+    company: "LinkedIn",
     content:
-      "O resultado ficou profissional, responsivo e fácil de manter. A experiência durante o projeto foi excelente.",
-  },
-  {
-    name: "Fernanda Lima",
-    role: "Gestora de Projetos",
-    company: "Tech Solutions",
-    content:
-      "Os componentes reutilizáveis trouxeram consistência visual e reduziram bastante o retrabalho.",
+      "Uma profissional com sólida bagagem acadêmica, excelente capacidade de coordenação e grande habilidade no relacionamento com pessoas e equipes.",
   },
 ] as const;

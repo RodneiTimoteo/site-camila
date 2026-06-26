@@ -7,13 +7,13 @@ export default function Testimonials() {
   return (
     <Section id="depoimentos" className="bg-slate-50">
       <SectionTitle
-        eyebrow="Depoimentos"
-        title="Experiências de quem já confiou no trabalho."
-        description="Provas sociais ajudam a transmitir confiança, autoridade e segurança para novos clientes."
+        eyebrow="Recomendações"
+        title="Reconhecimento construído por meio da liderança e das relações profissionais."
+        description="Depoimentos de profissionais que acompanharam de perto a trajetória e o trabalho de Camila."
         align="center"
       />
 
-      <div className="mt-12 grid gap-6 md:grid-cols-3">
+      <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2">
         {testimonials.map((testimonial) => (
           <TestimonialCard
             key={testimonial.name}
