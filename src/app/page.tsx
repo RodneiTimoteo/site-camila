@@ -11,6 +11,7 @@ import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
 import Achievements from "@/components/sections/Achievements";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -35,8 +36,10 @@ export default function Home() {
         <About />
 
         <Experience />
-        
+
         <Achievements />
+
+        <Projects />
 
         <Testimonials />
 
