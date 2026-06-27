@@ -14,17 +14,32 @@ export default function Projects() {
       />
 
       <div className="mt-12 grid gap-6 md:grid-cols-3">
-        {projectsData.items.map((item) => (
-          <ProjectCard
-            key={item.title}
-            type={item.type}
-            title={item.title}
-            description={item.description}
-            label={item.label}
-            url={item.url}
-          />
-        ))}
-      </div>
+  <ProjectCard
+    type="course"
+    title="Ganhando o Tempo"
+    description="Criei este curso para ajudar pessoas a organizarem suas rotinas, definirem prioridades e utilizarem melhor o próprio tempo."
+    label="Conhecer meu curso"
+    url="#"
+    image="/images/camila-conhecimento.jpeg"
+  />
+
+  <ProjectCard
+    type="whatsapp"
+    title="Meu canal no WhatsApp"
+    description="Compartilho conteúdos, reflexões e informações diretamente com a minha comunidade pelo WhatsApp."
+    label="Acessar meu canal"
+    url="#"
+  />
+
+  <ProjectCard
+    type="instagram"
+    title="Meus conteúdos no Instagram"
+    description="Compartilho publicações sobre produtividade, carreira, rotina, liderança e desenvolvimento profissional."
+    label="Acompanhar meu Instagram"
+    url="https://www.instagram.com/kamysvieira/"
+  />
+</div>
+      
     </Section>
   );
 }

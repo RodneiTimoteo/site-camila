@@ -11,6 +11,7 @@ export const projectsData = {
         "Criei este curso para ajudar pessoas a organizarem suas rotinas, definirem prioridades e utilizarem melhor o próprio tempo.",
       label: "Conhecer meu curso",
       url: "#",
+      image: "/images/camila-conhecimento.jpeg",
     },
     {
       type: "whatsapp",

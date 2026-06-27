@@ -1,3 +1,4 @@
+
 import {
   ArrowUpRight,
   BookOpen,
@@ -11,6 +12,7 @@ interface ProjectCardProps {
   description: string;
   label: string;
   url: string;
+  image?: string;
 }
 
 const projectIcons = {
@@ -25,11 +27,21 @@ export default function ProjectCard({
   description,
   label,
   url,
+  image,
 }: ProjectCardProps) {
   const Icon = projectIcons[type];
 
   return (
     <article className="flex h-full flex-col rounded-2xl border border-site bg-surface p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+{type === "course" && (
+  <div className="mb-6 overflow-hidden rounded-xl">
+    <img
+      src="/images/camila-conhecimento.jpeg"
+      alt="Camila compartilhando conhecimento"
+      className="h-56 w-full object-cover object-center"
+    />
+  </div>
+)}
       <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white">
         <Icon className="h-6 w-6" aria-hidden="true" />
       </span>
