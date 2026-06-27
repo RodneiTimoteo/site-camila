@@ -8,8 +8,8 @@ export default function Testimonials() {
     <Section id="depoimentos" className="bg-slate-50">
       <SectionTitle
         eyebrow="Recomendações"
-        title="Reconhecimento construído por meio da liderança e das relações profissionais."
-        description="Depoimentos de profissionais que acompanharam de perto a trajetória e o trabalho de Camila."
+        title="O reconhecimento que construí por meio do meu trabalho e das relações profissionais."
+        description="Confira relatos de profissionais que acompanharam minha trajetória e minha atuação."
         align="center"
       />
 

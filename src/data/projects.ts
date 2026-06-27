@@ -1,31 +1,31 @@
 export const projectsData = {
-  eyebrow: "Cursos e projetos",
-  title: "Conhecimento compartilhado para gerar transformação.",
+  eyebrow: "Meus cursos e projetos",
+  title: "Compartilho conhecimento para gerar transformação.",
   description:
-    "Projetos criados por Camila para compartilhar experiências sobre produtividade, organização, carreira e desenvolvimento pessoal.",
+    "Crio projetos e conteúdos para compartilhar minhas experiências sobre produtividade, organização, carreira e desenvolvimento pessoal.",
   items: [
     {
       type: "course",
       title: "Ganhando o Tempo",
       description:
-        "Curso desenvolvido para ajudar pessoas a organizarem suas rotinas, definirem prioridades e utilizarem melhor o próprio tempo.",
-      label: "Conhecer o curso",
+        "Criei este curso para ajudar pessoas a organizarem suas rotinas, definirem prioridades e utilizarem melhor o próprio tempo.",
+      label: "Conhecer meu curso",
       url: "#",
     },
     {
       type: "whatsapp",
-      title: "Canal no WhatsApp",
+      title: "Meu canal no WhatsApp",
       description:
-        "Conteúdos, reflexões e informações compartilhadas diretamente com a comunidade pelo WhatsApp.",
-      label: "Acessar o canal",
+        "Compartilho conteúdos, reflexões e informações diretamente com a minha comunidade pelo WhatsApp.",
+      label: "Acessar meu canal",
       url: "#",
     },
     {
       type: "instagram",
-      title: "Conteúdos no Instagram",
+      title: "Meus conteúdos no Instagram",
       description:
-        "Publicações sobre produtividade, carreira, rotina, liderança e desenvolvimento profissional.",
-      label: "Acompanhar no Instagram",
+        "Compartilho publicações sobre produtividade, carreira, rotina, liderança e desenvolvimento profissional.",
+      label: "Acompanhar meu Instagram",
       url: "https://www.instagram.com/kamysvieira/",
     },
   ],

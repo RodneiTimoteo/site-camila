@@ -1,8 +1,8 @@
 export const achievementsData = {
   eyebrow: "Conquistas",
-  title: "Conhecimento construído com experiência e aprendizado contínuo.",
+  title: "Conhecimento que construí por meio da experiência e do aprendizado contínuo.",
   description:
-    "Certificações e formações que reforçam a atuação de Camila nas áreas de tecnologia, liderança, produtividade e dados.",
+    "Estas são algumas das certificações e formações que fortalecem minha atuação em tecnologia, liderança, produtividade e dados.",
   items: [
     {
       title: "Cibersegurança: Como se Proteger",

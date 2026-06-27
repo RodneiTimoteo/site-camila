@@ -1,22 +1,22 @@
 export const faqItems = [
   {
-    question: "Este template pode ser usado em qualquer segmento?",
+    question: "Em quais áreas eu atuo?",
     answer:
-      "Sim. A estrutura é modular e pode ser adaptada para clínicas, advogados, mercados, empresas, portfólios e outros tipos de projeto.",
+      "Atuo com dados, analytics, tecnologia, liderança de equipes, produtividade e desenvolvimento profissional.",
   },
   {
-    question: "É possível trocar as cores e a identidade visual?",
+    question: "Quais conteúdos eu compartilho?",
     answer:
-      "Sim. Cores, fontes, textos, imagens e componentes podem ser personalizados para cada cliente.",
+      "Compartilho conteúdos sobre produtividade, organização, gestão do tempo, carreira, liderança e desenvolvimento pessoal.",
   },
   {
-    question: "O site funciona em celulares e tablets?",
+    question: "Como conhecer o curso Ganhando o Tempo?",
     answer:
-      "Sim. Todos os componentes são desenvolvidos com responsividade e abordagem mobile first.",
+      "O acesso ao curso estará disponível na seção de cursos e projetos, por meio do botão que direciona para a página oficial.",
   },
   {
-    question: "Posso adicionar novas seções no futuro?",
+    question: "Como entrar em contato comigo?",
     answer:
-      "Sim. A arquitetura foi preparada para receber novas páginas, seções e integrações sem comprometer a organização do projeto.",
+      "Você pode entrar em contato pelas redes sociais, pelo WhatsApp ou pelo formulário disponível ao final desta página.",
   },
 ] as const;

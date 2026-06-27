@@ -14,8 +14,8 @@ export default function FAQ() {
       <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
         <SectionTitle
           eyebrow="Perguntas frequentes"
-          title="Informações importantes antes de começar."
-          description="Use esta seção para esclarecer dúvidas comuns e reduzir objeções dos visitantes."
+          title="Saiba mais sobre minha trajetória, conteúdos e projetos."
+          description="Aqui você encontra respostas rápidas sobre minha atuação profissional e meus canais de contato."
         />
 
         <Accordion type="single" collapsible className="w-full">
