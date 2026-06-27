@@ -67,10 +67,10 @@ export default function Hero({
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-md lg:max-w-none">
+          <div className="relative mx-auto w-full max-w-sm lg:max-w-[25rem]">
             <div className="absolute -left-6 -top-6 h-32 w-32 rounded-full bg-[var(--color-secondary)]/20 blur-2xl" />
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-surface p-3 shadow-2xl">
+            <div className="relative overflow-hidden rounded-[2rem] border border-white/40 shadow-2xl">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-[var(--color-background)]">
                 <Image
                   src="/images/camila-hero.jpeg"
@@ -78,18 +78,14 @@ export default function Hero({
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 42vw"
-                  className="object-cover object-top"
+                  className="object-cover object-[center_18%]"
                 />
               </div>
             </div>
 
-            <div className="absolute -bottom-5 -left-5 hidden rounded-2xl border border-site bg-surface px-5 py-4 shadow-lg sm:block">
-              <p className="text-sm font-semibold text-primary">
+            <div className="absolute bottom-4 left-4 hidden rounded-xl border border-white/60 bg-white/90 px-4 py-3 shadow-md backdrop-blur-sm sm:block">
+              <p className="text-xs font-semibold text-primary">
                 Dados • Liderança • Produtividade
-              </p>
-
-              <p className="mt-1 text-xs text-muted-site">
-                Experiência transformada em impacto
               </p>
             </div>
           </div>
