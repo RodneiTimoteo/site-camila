@@ -132,7 +132,12 @@
   body {
     background-color: var(--color-background);
     color: var(--color-text);
+    font-family: var(--font-geist-sans), Arial, sans-serif;
   }
+  h1,
+    h2 {
+      font-family: var(--font-playfair-display), Georgia, serif;
+    }
   html {
     @apply font-sans;
   }
