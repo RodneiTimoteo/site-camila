@@ -1,23 +1,31 @@
+import Link from "next/link";
+
+import { siteConfig } from "@/data/site";
+
 interface LogoProps {
   className?: string;
 }
 
 export default function Logo({ className = "" }: LogoProps) {
   return (
-    <div className={`flex items-center gap-3 ${className}`}>
-      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-white font-bold">
-        S
-      </div>
+    <Link
+      href="#inicio"
+      className={`inline-flex items-center gap-3 ${className}`}
+      aria-label={`Ir para o início do site de ${siteConfig.name}`}
+    >
+      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-sm font-bold text-white">
+        CV
+      </span>
 
-      <div>
-        <h2 className="text-lg font-bold leading-none">
-          Starter Premium
-        </h2>
+      <span>
+        <span className="block font-semibold leading-tight text-inherit">
+          {siteConfig.shortName}
+        </span>
 
-        <p className="text-sm text-slate-500">
-          Next.js Template
-        </p>
-      </div>
-    </div>
+        <span className="block text-sm opacity-70">
+          Dados, Liderança e Produtividade
+        </span>
+      </span>
+    </Link>
   );
 }

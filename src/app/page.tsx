@@ -21,14 +21,14 @@ export default function Home() {
       <main>
        <Hero
           eyebrow="Dados • Liderança • Produtividade"
-          title="Transformando experiência em conhecimento, resultados e impacto."
-          description="Conheça a trajetória de Camila Timóteo Vieira, sua atuação em dados e analytics, experiências em liderança e projetos voltados à produtividade."
+          title="Transformo experiência em conhecimento, resultados e impacto."
+          description="Ao longo da minha trajetória, reuni experiência em dados, analytics, tecnologia e liderança para transformar desafios em resultados e compartilhar conhecimento."
           primaryAction={{
-            label: "Conhecer trajetória",
+            label: "Conheça minha trajetória",
             href: "#sobre",
           }}
           secondaryAction={{
-            label: "Ver cursos",
+            label: "Conheça meus projetos",
             href: "#cursos",
           }}
         />
@@ -45,16 +45,16 @@ export default function Home() {
 
         <FAQ />
         <Contact />
-        <CTA
-          eyebrow="Pronto para começar?"
-          title="Transforme sua próxima ideia em um projeto profissional."
-          description="Use esta base para criar sites institucionais e landing pages com mais velocidade, organização e consistência."
+       <CTA
+          eyebrow="Vamos nos conectar?"
+          title="Conheça melhor meu trabalho, meus projetos e minha trajetória."
+          description="Entre em contato comigo para conversarmos sobre projetos, oportunidades, conteúdos e possíveis parcerias."
           primaryAction={{
             label: "Entrar em contato",
             href: "#contato",
           }}
           secondaryAction={{
-            label: "Ver experiência",
+            label: "Ver minha experiência",
             href: "#experiencia",
           }}
         />

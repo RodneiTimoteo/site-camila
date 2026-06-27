@@ -10,12 +10,12 @@ export default function ExperienceCard({
   skills,
 }: ExperienceCardProps) {
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-      <h3 className="text-xl font-bold text-slate-950">
+    <article className="flex h-full flex-col rounded-2xl border border-site bg-surface p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+      <h3 className="text-xl font-bold text-primary">
         {title}
       </h3>
 
-      <p className="mt-4 flex-1 leading-7 text-slate-600">
+      <p className="mt-4 flex-1 leading-7 text-muted-site">
         {description}
       </p>
 
@@ -23,7 +23,7 @@ export default function ExperienceCard({
         {skills.map((skill) => (
           <span
             key={skill}
-            className="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700"
+            className="rounded-full bg-site px-3 py-1 text-sm font-medium text-primary"
           >
             {skill}
           </span>

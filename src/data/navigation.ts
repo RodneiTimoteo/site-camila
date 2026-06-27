@@ -12,6 +12,10 @@ export const navigation = [
     href: "#experiencia",
   },
   {
+    label: "Conquistas",
+    href: "#conquistas",
+  },
+  {
     label: "Cursos",
     href: "#cursos",
   },
@@ -19,4 +23,4 @@ export const navigation = [
     label: "Contato",
     href: "#contato",
   },
-];
+] as const;

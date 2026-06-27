@@ -10,7 +10,7 @@ import { faqItems } from "@/data/faq";
 
 export default function FAQ() {
   return (
-    <Section id="faq">
+    <Section id="faq" className="bg-surface">
       <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
         <SectionTitle
           eyebrow="Perguntas frequentes"
@@ -21,11 +21,11 @@ export default function FAQ() {
         <Accordion type="single" collapsible className="w-full">
           {faqItems.map((item, index) => (
             <AccordionItem key={item.question} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-base font-semibold text-slate-950">
+              <AccordionTrigger className="text-left text-base font-semibold text-primary">
                 {item.question}
               </AccordionTrigger>
 
-              <AccordionContent className="text-base leading-7 text-slate-600">
+              <AccordionContent className="text-base leading-7 text-muted-site">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>

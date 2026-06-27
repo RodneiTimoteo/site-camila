@@ -3,6 +3,13 @@ interface SectionTitleProps {
   title: string;
   description?: string;
   align?: "left" | "center";
+  theme?: "light" | "dark";
+}
+interface SectionTitleProps {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  align?: "left" | "center";
 }
 
 export default function SectionTitle({
@@ -10,26 +17,42 @@ export default function SectionTitle({
   title,
   description,
   align = "left",
+  theme = "light",
 }: SectionTitleProps) {
-  const alignment =
-    align === "center"
-      ? "mx-auto items-center text-center"
-      : "items-start text-left";
+  const isDark = theme === "dark";
 
   return (
-    <div className={`flex max-w-3xl flex-col ${alignment}`}>
+    <div
+      className={
+        align === "center"
+          ? "mx-auto max-w-3xl text-center"
+          : "max-w-2xl"
+      }
+    >
       {eyebrow && (
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
+        <p
+          className={`text-sm font-semibold uppercase tracking-[0.2em] ${
+            isDark ? "text-secondary" : "text-secondary"
+          }`}
+        >
           {eyebrow}
         </p>
       )}
 
-      <h2 className="text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
+      <h2
+        className={`mt-4 text-3xl font-bold tracking-tight sm:text-4xl ${
+          isDark ? "text-white" : "text-primary"
+        }`}
+      >
         {title}
       </h2>
 
       {description && (
-        <p className="mt-5 text-lg leading-8 text-slate-600">
+        <p
+          className={`mt-5 text-lg leading-8 ${
+            isDark ? "text-white/70" : "text-muted-site"
+          }`}
+        >
           {description}
         </p>
       )}

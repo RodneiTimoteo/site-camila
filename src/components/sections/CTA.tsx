@@ -26,7 +26,7 @@ export default function CTA({
   return (
     <section
       id="contato"
-      className="relative overflow-hidden bg-slate-950 py-20 text-white sm:py-24"
+      className="relative overflow-hidden bg-primary py-20 text-white sm:py-24"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.12),transparent_35%)]" />
 
@@ -49,7 +49,7 @@ export default function CTA({
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href={primaryAction.href}
-              className="inline-flex min-h-12 items-center justify-center rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
+              className="inline-flex min-h-12 items-center justify-center rounded-xl bg-white px-6 py-3 text-sm font-semibold text-primary transition hover:bg-slate-200"
             >
               {primaryAction.label}
             </Link>
@@ -57,7 +57,7 @@ export default function CTA({
             {secondaryAction && (
               <Link
                 href={secondaryAction.href}
-                className="inline-flex min-h-12 items-center justify-center rounded-xl border border-slate-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-900"
+                className="inline-flex min-h-12 items-center justify-center rounded-xl border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
               >
                 {secondaryAction.label}
               </Link>

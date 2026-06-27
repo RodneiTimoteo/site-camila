@@ -1,20 +1,23 @@
 export const aboutData = {
-  eyebrow: "Sobre",
-  title: "Experiência em dados, liderança e desenvolvimento de pessoas.",
+  eyebrow: "Sobre mim",
+  title: "Minha trajetória une dados, liderança e desenvolvimento de pessoas.",
   description:
-    "Camila Timóteo Vieira construiu sua trajetória profissional atuando com dados, analytics, tecnologia e liderança de equipes. Sua experiência reúne conhecimento técnico, visão estratégica e capacidade de transformar desafios em resultados.",
+    "Construí minha trajetória profissional atuando com dados, analytics, tecnologia e liderança de equipes. Minha experiência reúne conhecimento técnico, visão estratégica e o compromisso de transformar desafios em resultados.",
   highlights: [
     {
       value: "Dados",
-      label: "Experiência com analytics, engenharia de dados e tecnologia.",
+      label:
+        "Atuo com analytics, engenharia de dados, tecnologia e tomada de decisões orientadas por informações.",
     },
     {
       value: "Liderança",
-      label: "Atuação na coordenação e desenvolvimento de equipes.",
+      label:
+        "Tenho experiência na coordenação, orientação e desenvolvimento de equipes.",
     },
     {
       value: "Produtividade",
-      label: "Criação de conteúdos e projetos voltados à gestão do tempo.",
+      label:
+        "Desenvolvo conteúdos e projetos voltados à organização e à gestão do tempo.",
     },
   ],
 } as const;

@@ -11,7 +11,7 @@ import { contactInfo } from "@/data/contact";
 
 export default function Contact() {
   return (
-    <Section id="contato" className="bg-slate-50">
+    <Section id="contato" className="bg-site">
       <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
         <div>
           <SectionTitle
@@ -23,39 +23,39 @@ export default function Contact() {
           <div className="mt-10 space-y-5">
             <a
               href={`mailto:${contactInfo.email}`}
-              className="flex items-center gap-4 text-slate-700 transition hover:text-slate-950"
+              className="flex items-center gap-4 text-site transition hover:text-primary"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-sm">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-surface shadow-sm">
                 <Mail className="h-5 w-5" aria-hidden="true" />
               </span>
 
               <span>
-                <span className="block text-sm text-slate-500">E-mail</span>
+                <span className="block text-sm text-muted-site">E-mail</span>
                 <span className="font-medium">{contactInfo.email}</span>
               </span>
             </a>
 
             <a
               href={`tel:${contactInfo.phone.replace(/\D/g, "")}`}
-              className="flex items-center gap-4 text-slate-700 transition hover:text-slate-950"
+              className="flex items-center gap-4 text-site transition hover:text-primary"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-sm">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-surface shadow-sm">
                 <Phone className="h-5 w-5" aria-hidden="true" />
               </span>
 
               <span>
-                <span className="block text-sm text-slate-500">Telefone</span>
+                <span className="block text-sm text-muted-site">Telefone</span>
                 <span className="font-medium">{contactInfo.phone}</span>
               </span>
             </a>
 
-            <div className="flex items-center gap-4 text-slate-700">
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-sm">
+            <div className="flex items-center gap-4 text-site">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-surface shadow-sm">
                 <MapPin className="h-5 w-5" aria-hidden="true" />
               </span>
 
               <span>
-                <span className="block text-sm text-slate-500">Localização</span>
+                <span className="block text-sm text-muted-site">Localização</span>
                 <span className="font-medium">{contactInfo.location}</span>
               </span>
             </div>
@@ -72,12 +72,12 @@ export default function Contact() {
           </div>
         </div>
 
-        <form className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+        <form className="rounded-2xl border border-site bg-surface p-6 shadow-sm sm:p-8">
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="sm:col-span-2">
               <label
                 htmlFor="name"
-                className="mb-2 block text-sm font-medium text-slate-700"
+                className="mb-2 block text-sm font-medium text-site"
               >
                 Nome
               </label>
@@ -87,14 +87,14 @@ export default function Contact() {
                 name="name"
                 type="text"
                 placeholder="Digite seu nome"
-                className="min-h-12 w-full rounded-xl border border-slate-300 px-4 outline-none transition focus:border-slate-950"
+                className="min-h-12 w-full rounded-xl border border-site px-4 outline-none transition focus:border-[var(--color-primary)]"
               />
             </div>
 
             <div>
               <label
                 htmlFor="email"
-                className="mb-2 block text-sm font-medium text-slate-700"
+                className="mb-2 block text-sm font-medium text-site"
               >
                 E-mail
               </label>
@@ -104,14 +104,14 @@ export default function Contact() {
                 name="email"
                 type="email"
                 placeholder="seuemail@exemplo.com"
-                className="min-h-12 w-full rounded-xl border border-slate-300 px-4 outline-none transition focus:border-slate-950"
+                className="min-h-12 w-full rounded-xl border border-site px-4 outline-none transition focus:border-[var(--color-primary)]"
               />
             </div>
 
             <div>
               <label
                 htmlFor="phone"
-                className="mb-2 block text-sm font-medium text-slate-700"
+                className="mb-2 block text-sm font-medium text-site"
               >
                 Telefone
               </label>
@@ -121,14 +121,14 @@ export default function Contact() {
                 name="phone"
                 type="tel"
                 placeholder="(00) 00000-0000"
-                className="min-h-12 w-full rounded-xl border border-slate-300 px-4 outline-none transition focus:border-slate-950"
+                className="min-h-12 w-full rounded-xl border border-site px-4 outline-none transition focus:border-[var(--color-primary)]"
               />
             </div>
 
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="mb-2 block text-sm font-medium text-slate-700"
+                className="mb-2 block text-sm font-medium text-site"
               >
                 Mensagem
               </label>
@@ -138,7 +138,7 @@ export default function Contact() {
                 name="message"
                 rows={5}
                 placeholder="Escreva sua mensagem"
-                className="w-full resize-none rounded-xl border border-slate-300 px-4 py-3 outline-none transition focus:border-slate-950"
+                className="w-full resize-none rounded-xl border border-site px-4 py-3 outline-none transition focus:border-[var(--color-primary)]"
               />
             </div>
 
@@ -152,7 +152,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <p className="mt-4 text-sm leading-6 text-slate-500">
+          <p className="mt-4 text-sm leading-6 text-muted-site">
             Este formulário ainda é visual. A integração de envio será
             configurada posteriormente.
           </p>
