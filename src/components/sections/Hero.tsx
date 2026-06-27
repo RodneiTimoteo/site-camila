@@ -27,13 +27,13 @@ export default function Hero({
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden bg-site py-20 sm:py-24 lg:py-28"
+      className="relative overflow-hidden bg-site py-16 sm:py-20 lg:py-24"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(176,141,87,0.16),transparent_32%)]" />
 
       <Container className="relative">
         <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl">
             {eyebrow && (
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
                 {eyebrow}
@@ -59,7 +59,7 @@ export default function Hero({
               {secondaryAction && (
                 <Link
                   href={secondaryAction.href}
-                  className="inline-flex min-h-12 items-center justify-center rounded-xl border border-site bg-surface px-6 py-3 text-sm font-semibold text-primary transition hover:border-[var(--color-primary)]"
+                  className="inline-flex min-h-12 items-center justify-center rounded-xl border border-site bg-surface px-6 py-3 text-sm font-semibold text-primary transition hover:border-[var(--color-secondary)] hover:bg-white"
                 >
                   {secondaryAction.label}
                 </Link>
@@ -78,13 +78,13 @@ export default function Hero({
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 42vw"
-                  className="object-cover object-[center_18%]"
+                  className="object-cover object-[center_12%]"
                 />
               </div>
             </div>
 
-            <div className="absolute bottom-4 left-4 hidden rounded-xl border border-white/60 bg-white/90 px-4 py-3 shadow-md backdrop-blur-sm sm:block">
-              <p className="text-xs font-semibold text-primary">
+            <div className="absolute bottom-4 left-4 hidden rounded-lg border border-white/60 bg-white/90 px-3 py-2 shadow-sm backdrop-blur-sm sm:block">
+              <p className="text-[11px] font-semibold text-primary">
                 Dados • Liderança • Produtividade
               </p>
             </div>
