@@ -81,6 +81,14 @@
   --sidebar-ring: oklch(0.708 0 0);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+  --color-background: #f8f7f4;
+  --color-surface: #ffffff;
+  --color-primary: #202a44;
+  --color-primary-hover: #172036;
+  --color-secondary: #b08d57;
+  --color-text: #172033;
+  --color-text-muted: #667085;
+  --color-border: #e6e3dd;
 }
 
 .dark {
@@ -122,9 +130,44 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: var(--color-background);
+    color: var(--color-text);
   }
   html {
     @apply font-sans;
+  }
+}
+
+@layer utilities {
+  .bg-site {
+    background-color: var(--color-background);
+  }
+
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .text-site {
+    color: var(--color-text);
+  }
+
+  .text-muted-site {
+    color: var(--color-text-muted);
+  }
+
+  .border-site {
+    border-color: var(--color-border);
   }
 }

@@ -16,8 +16,8 @@ export default function Contact() {
         <div>
           <SectionTitle
             eyebrow="Contato"
-            title="Vamos conversar sobre o seu próximo projeto."
-            description="Entre em contato pelos canais abaixo ou envie uma mensagem pelo formulário."
+            title="Vamos conversar?"
+            description="Entre em contato comigo pelos canais abaixo ou envie uma mensagem pelo formulário."
           />
 
           <div className="mt-10 space-y-5">
@@ -64,10 +64,10 @@ export default function Contact() {
               href={contactInfo.whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--color-primary-hover)]"
             >
               <MessageCircle className="h-5 w-5" aria-hidden="true" />
-              Conversar pelo WhatsApp
+              Falar comigo pelo WhatsApp
             </a>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={5}
-                placeholder="Conte um pouco sobre o projeto"
+                placeholder="Escreva sua mensagem"
                 className="w-full resize-none rounded-xl border border-slate-300 px-4 py-3 outline-none transition focus:border-slate-950"
               />
             </div>
@@ -145,7 +145,7 @@ export default function Contact() {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+                className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--color-primary-hover)]"
               >
                 Enviar mensagem
               </button>
