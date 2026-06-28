@@ -12,6 +12,10 @@ export const navigation = [
     href: "#trajetoria",
   },
   {
+    label: "Impacto",
+    href: "#impacto",
+  },
+  {
     label: "Conquistas",
     href: "#conquistas",
   },

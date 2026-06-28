@@ -8,6 +8,7 @@ import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
 import ProfessionalJourney from "@/components/sections/ProfessionalJourney";
+import ImpactAreas from "@/components/sections/ImpactAreas";
 import Achievements from "@/components/sections/Achievements";
 import Projects from "@/components/sections/Projects";
 
@@ -37,6 +38,8 @@ export default function Home() {
         <About />
 
         <ProfessionalJourney />
+
+        <ImpactAreas />
 
         <Achievements />
 
