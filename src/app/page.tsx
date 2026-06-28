@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
+import AuthorityStats from "@/components/sections/AuthorityStats";
 import Footer from "@/components/layout/Footer";
 import CTA from "@/components/sections/CTA";
 import Testimonials from "@/components/sections/Testimonials";
@@ -17,18 +18,21 @@ export default function Home() {
 
       <main>
        <Hero
-          eyebrow="Dados • Liderança • Produtividade"
-          title="Transformo experiência em conhecimento, resultados e impacto."
-          description="Ao longo da minha trajetória, reuni experiência em dados, analytics, tecnologia e liderança para transformar desafios em resultados e compartilhar conhecimento."
+          eyebrow="Camila Timóteo Vieira"
+          role="Data & AI Leader • Educadora • Palestrante"
+          title="Transformo dados, tecnologia e conhecimento em impacto."
+          description="Há mais de 15 anos, conecto estratégia, inteligência artificial, liderança e educação para impulsionar resultados, desenvolver profissionais e transformar organizações."
           primaryAction={{
             label: "Conheça minha trajetória",
-            href: "#sobre",
+            href: "#trajetoria",
           }}
           secondaryAction={{
-            label: "Conheça meus projetos",
-            href: "#cursos",
+            label: "Conheça meus programas",
+            href: "#programas",
           }}
         />
+
+        <AuthorityStats />
 
         <About />
 

@@ -5,6 +5,7 @@ import Container from "@/components/layout/Container";
 
 interface HeroProps {
   eyebrow?: string;
+  role?: string;
   title: string;
   description: string;
   primaryAction: {
@@ -19,6 +20,7 @@ interface HeroProps {
 
 export default function Hero({
   eyebrow,
+  role,
   title,
   description,
   primaryAction,
@@ -37,6 +39,12 @@ export default function Hero({
             {eyebrow && (
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
                 {eyebrow}
+              </p>
+            )}
+
+            {role && (
+              <p className="mt-3 text-base font-semibold text-primary sm:text-lg">
+                {role}
               </p>
             )}
 
