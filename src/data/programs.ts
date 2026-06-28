@@ -15,7 +15,7 @@ export const programsCommunityData = {
       "Produtividade sustentável",
     ],
     cta: "Conheça o programa",
-    href: "#contato",
+    href: "https://kamysvieira.my.canva.site/ganhandotempo",
     image: "/images/camila-conhecimento.jpeg",
   },
   secondaryPrograms: [

@@ -24,6 +24,10 @@ export const navigation = [
     href: "#programas",
   },
   {
+    label: "Conteúdo",
+    href: "#conteudo",
+  },
+  {
     label: "Contato",
     href: "#contato",
   },

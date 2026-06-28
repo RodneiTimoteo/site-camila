@@ -4,7 +4,7 @@ import AuthorityStats from "@/components/sections/AuthorityStats";
 import Footer from "@/components/layout/Footer";
 import CTA from "@/components/sections/CTA";
 import Testimonials from "@/components/sections/Testimonials";
-import FAQ from "@/components/sections/FAQ";
+import ContentCommunity from "@/components/sections/ContentCommunity";
 import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
 import ProfessionalJourney from "@/components/sections/ProfessionalJourney";
@@ -47,7 +47,8 @@ export default function Home() {
 
         <Testimonials />
 
-        <FAQ />
+        <ContentCommunity />
+
         <Contact />
        <CTA
           eyebrow="Vamos nos conectar?"

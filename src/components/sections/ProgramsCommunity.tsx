@@ -77,6 +77,9 @@ export default function ProgramsCommunity() {
               <div className="mt-7">
                 <Link
                   href={mainProgram.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir Método Ganhando o Tempo"
                   className="inline-flex min-h-12 items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--color-primary-hover)]"
                 >
                   {mainProgram.cta}
