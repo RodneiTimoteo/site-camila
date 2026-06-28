@@ -20,8 +20,8 @@ export const navigation = [
     href: "#conquistas",
   },
   {
-    label: "Cursos",
-    href: "#cursos",
+    label: "Programas",
+    href: "#programas",
   },
   {
     label: "Contato",

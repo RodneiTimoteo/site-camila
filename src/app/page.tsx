@@ -10,7 +10,7 @@ import About from "@/components/sections/About";
 import ProfessionalJourney from "@/components/sections/ProfessionalJourney";
 import ImpactAreas from "@/components/sections/ImpactAreas";
 import Achievements from "@/components/sections/Achievements";
-import Projects from "@/components/sections/Projects";
+import ProgramsCommunity from "@/components/sections/ProgramsCommunity";
 
 export default function Home() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
 
         <Achievements />
 
-        <Projects />
+        <ProgramsCommunity />
 
         <Testimonials />
 
