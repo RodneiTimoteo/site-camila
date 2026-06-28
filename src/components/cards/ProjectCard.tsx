@@ -34,11 +34,12 @@ export default function ProjectCard({
   return (
     <article className="flex h-full flex-col rounded-2xl border border-site bg-surface p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
 {type === "course" && (
-  <div className="mb-6 overflow-hidden rounded-xl">
+  <div className="mb-6 overflow-hidden rounded-xl bg-[#202a44]">
     <img
       src="/images/camila-conhecimento.jpeg"
       alt="Camila compartilhando conhecimento"
-      className="h-56 w-full object-cover object-center"
+      className="h-72 w-full object-contain object-center"
+      loading="lazy"
     />
   </div>
 )}
