@@ -7,7 +7,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import About from "@/components/sections/About";
-import Experience from "@/components/sections/Experience";
+import ProfessionalJourney from "@/components/sections/ProfessionalJourney";
 import Achievements from "@/components/sections/Achievements";
 import Projects from "@/components/sections/Projects";
 
@@ -36,7 +36,7 @@ export default function Home() {
 
         <About />
 
-        <Experience />
+        <ProfessionalJourney />
 
         <Achievements />
 

@@ -8,8 +8,8 @@ export const navigation = [
     href: "#sobre",
   },
   {
-    label: "Experiência",
-    href: "#experiencia",
+    label: "Trajetória",
+    href: "#trajetoria",
   },
   {
     label: "Conquistas",
