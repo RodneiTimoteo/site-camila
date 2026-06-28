@@ -1,44 +1,40 @@
 export const achievementsData = {
-  eyebrow: "Conquistas",
-  title: "Conhecimento que construí por meio da experiência e do aprendizado contínuo.",
+  eyebrow: "Reconhecimento",
+  title: "Resultados que conquistaram reconhecimento.",
   description:
-    "Estas são algumas das certificações e formações que fortalecem minha atuação em tecnologia, liderança, produtividade e dados.",
+    "Premiações e participações que refletem uma trajetória construída com inovação, dados, liderança e geração de impacto.",
   items: [
     {
-      title: "Cibersegurança: Como se Proteger",
-      institution: "LinkedIn Learning",
-      date: "Janeiro de 2025",
-      category: "Tecnologia",
+      title: "Innovation Award",
+      year: "2023",
+      category: "Inovação",
+      description:
+        "Reconhecimento por iniciativa de inovação e aplicação estratégica de tecnologia em projetos de alto impacto.",
+      icon: "sparkles",
     },
     {
-      title: "Produtividade Inteligente",
-      institution: "Conquer",
-      date: "Janeiro de 2023",
-      category: "Produtividade",
+      title: "Prêmio ABEMD",
+      year: "2021, 2022 e 2023",
+      category: "Dados e Marketing",
+      description:
+        "Reconhecimento em diferentes edições por projetos que conectaram dados, inteligência analítica e resultados de negócio.",
+      icon: "award",
     },
     {
-      title: "Empreender e Liderar",
-      institution: "FIA",
-      date: "Agosto de 2022",
-      category: "Liderança",
+      title: "ECHO LATAM",
+      year: "2022",
+      category: "Excelência em Dados",
+      description:
+        "Reconhecimento latino-americano por projeto orientado por dados, estratégia e inovação.",
+      icon: "trophy",
     },
     {
-      title: "Azure Cosmos DB",
-      institution: "Coursera",
-      date: "Maio de 2022",
-      category: "Dados",
-    },
-    {
-      title: "Microsoft Azure SQL",
-      institution: "Coursera",
-      date: "Março de 2022",
-      category: "Dados",
-    },
-    {
-      title: "Explore Core Data Concepts in Azure",
-      institution: "Coursera",
-      date: "Março de 2022",
-      category: "Dados",
+      title: "Palestrante na Campus Party",
+      year: "Participação especial",
+      category: "Tecnologia e Educação",
+      description:
+        "Participação como palestrante em um dos maiores eventos de tecnologia, inovação e empreendedorismo do mundo.",
+      icon: "mic",
     },
   ],
 } as const;

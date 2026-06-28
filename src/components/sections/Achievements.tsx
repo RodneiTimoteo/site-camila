@@ -13,14 +13,15 @@ export default function Achievements() {
         align="center"
       />
 
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {achievementsData.items.map((item) => (
           <AchievementCard
             key={item.title}
             title={item.title}
-            institution={item.institution}
-            date={item.date}
+            year={item.year}
             category={item.category}
+            description={item.description}
+            icon={item.icon}
           />
         ))}
       </div>
