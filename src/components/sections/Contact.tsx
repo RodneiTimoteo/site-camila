@@ -8,6 +8,7 @@ import {
 import SectionTitle from "@/components/common/SectionTitle";
 import Section from "@/components/layout/Section";
 import { contactInfo } from "@/data/contact";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -19,6 +20,18 @@ export default function Contact() {
             title="Vamos conversar?"
             description="Entre em contato comigo pelos canais abaixo ou envie uma mensagem pelo formulário."
           />
+
+          <div className="mx-auto mt-8 w-full max-w-md overflow-hidden rounded-2xl border border-site bg-surface shadow-sm">
+            <div className="relative aspect-[4/3]">
+              <Image
+                src="/images/camila-contato.jpeg"
+                alt="Camila Timóteo Vieira"
+                fill
+                sizes="(max-width: 1024px) 100vw, 40vw"
+                className="object-cover object-[center_25%]"
+              />
+            </div>
+          </div>
 
           <div className="mt-10 space-y-5">
             <a
