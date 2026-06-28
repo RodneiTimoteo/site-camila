@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import {
   ArrowUpRight,
   BookOpen,
@@ -33,13 +33,14 @@ export default function ProjectCard({
 
   return (
     <article className="flex h-full flex-col rounded-2xl border border-site bg-surface p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-{type === "course" && (
+{type === "course" && image && (
   <div className="mb-6 overflow-hidden rounded-xl bg-[#202a44]">
-    <img
-      src="/images/camila-conhecimento.jpeg"
+    <Image
+      src={image}
       alt="Camila compartilhando conhecimento"
+      width={640}
+      height={720}
       className="h-72 w-full object-contain object-center"
-      loading="lazy"
     />
   </div>
 )}

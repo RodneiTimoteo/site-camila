@@ -25,7 +25,6 @@ export default function CTA({
 }: CTAProps) {
   return (
     <section
-      id="contato"
       className="relative overflow-hidden bg-primary py-20 text-white sm:py-24"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.12),transparent_35%)]" />

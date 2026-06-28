@@ -5,12 +5,6 @@ interface SectionTitleProps {
   align?: "left" | "center";
   theme?: "light" | "dark";
 }
-interface SectionTitleProps {
-  eyebrow?: string;
-  title: string;
-  description?: string;
-  align?: "left" | "center";
-}
 
 export default function SectionTitle({
   eyebrow,
