@@ -3,7 +3,7 @@ import { achievementsData } from "@/data/achievements";
 
 export default function Achievements() {
   return (
-    <section id="conquistas" className="bg-primary py-24 text-white">
+    <section id="conquistas" className="scroll-mt-24 bg-primary py-24 text-white">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">

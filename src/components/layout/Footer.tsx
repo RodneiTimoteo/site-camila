@@ -2,7 +2,6 @@ import Link from "next/link";
 import {
   BriefcaseBusiness,
   Camera,
-  Code2,
   Play,
 } from "lucide-react";
 
@@ -16,7 +15,6 @@ const socialIcons = {
   instagram: Camera,
   linkedin: BriefcaseBusiness,
   youtube: Play,
-  github: Code2,
 };
 
 export default function Footer() {
@@ -64,8 +62,10 @@ export default function Footer() {
                 return (
                   <Link
                     key={name}
-                    href={url || "#"}
-                    aria-label={name}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Abrir ${name} de Camila Vieira em uma nova aba`}
                     className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-700 text-slate-400 transition hover:border-slate-500 hover:bg-slate-900 hover:text-white"
                   >
                     <Icon className="h-5 w-5" aria-hidden="true" />

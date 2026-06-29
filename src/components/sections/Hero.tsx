@@ -29,7 +29,7 @@ export default function Hero({
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden bg-site py-16 sm:py-20 lg:py-24"
+      className="relative scroll-mt-24 overflow-hidden bg-site py-16 sm:py-20 lg:py-24"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(176,141,87,0.16),transparent_32%)]" />
 
