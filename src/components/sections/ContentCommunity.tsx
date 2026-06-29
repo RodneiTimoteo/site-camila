@@ -27,7 +27,7 @@ const ariaLabels = {
 
 export default function ContentCommunity() {
   return (
-    <Section id="conteudo" className="bg-primary py-28">
+    <Section id="conteudo" className="bg-primary py-16 sm:py-20 lg:py-28">
       <SectionTitle
         eyebrow="Conteúdo & Comunidade"
         title="Continue acompanhando essa jornada."
@@ -49,7 +49,7 @@ export default function ContentCommunity() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={ariaLabels[channel.id]}
-              className={`group flex cursor-pointer flex-col rounded-2xl border bg-surface p-7 shadow-[0_12px_30px_rgba(12,18,32,0.08)] transition duration-300 hover:border-[var(--color-secondary)] hover:bg-white hover:shadow-[0_16px_34px_rgba(12,18,32,0.10)] sm:p-8 lg:p-9 ${
+              className={`group flex cursor-pointer flex-col rounded-2xl border bg-surface p-6 shadow-[0_12px_30px_rgba(12,18,32,0.08)] transition duration-300 hover:border-[var(--color-secondary)] hover:bg-white hover:shadow-[0_16px_34px_rgba(12,18,32,0.10)] sm:p-8 lg:p-9 ${
                 isPrimaryChannel
                   ? "border-t-[3px] border-white/70 border-t-[var(--color-secondary)]"
                   : "border-white/70"

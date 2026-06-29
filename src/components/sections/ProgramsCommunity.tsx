@@ -33,7 +33,7 @@ export default function ProgramsCommunity() {
       <div className="mt-12 grid items-start gap-6 lg:grid-cols-[1.45fr_1fr]">
         <article className="overflow-hidden rounded-2xl border border-site bg-surface">
           <div className="grid lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
-            <div className="relative aspect-[4/3] bg-primary sm:aspect-[16/10] lg:aspect-auto">
+            <div className="relative aspect-[16/10] bg-primary lg:aspect-auto">
               <Image
                 src={mainProgram.image}
                 alt="Camila compartilhando conhecimento"
@@ -72,7 +72,7 @@ export default function ProgramsCommunity() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Abrir Método Ganhando o Tempo"
-                  className="inline-flex min-h-12 items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--color-primary-hover)]"
+                  className="inline-flex min-h-12 items-center justify-center rounded-xl bg-primary px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-[var(--color-primary-hover)]"
                 >
                   {mainProgram.cta}
                 </Link>

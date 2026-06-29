@@ -48,7 +48,7 @@ export default function Hero({
               </p>
             )}
 
-            <h1 className="mt-5 text-4xl font-bold tracking-tight text-primary sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 text-3xl font-bold tracking-tight text-primary sm:text-5xl lg:text-6xl">
               {title}
             </h1>
 

@@ -3,7 +3,7 @@ import { achievementsData } from "@/data/achievements";
 
 export default function Achievements() {
   return (
-    <section id="conquistas" className="scroll-mt-24 bg-primary py-24 text-white">
+    <section id="conquistas" className="scroll-mt-24 bg-primary py-16 text-white sm:py-20 lg:py-24">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
@@ -19,12 +19,21 @@ export default function Achievements() {
           </p>
         </div>
 
-        <div className="mt-14 grid divide-y divide-white/15 border-y border-white/15 md:grid-cols-2 md:divide-x md:divide-y-0 lg:grid-cols-4">
-          {achievementsData.items.map((item) => {
+        <div className="mt-14 grid border-y border-white/15 md:grid-cols-2 lg:grid-cols-4">
+          {achievementsData.items.map((item, index) => {
             const isCampusParty = item.title === "Palestrante na Campus Party";
 
+            const dividerClass = [
+              index > 0 ? "border-t border-white/15" : "",
+              index % 2 === 1 ? "md:border-l md:border-white/15" : "",
+              index > 1 ? "md:border-t md:border-white/15" : "md:border-t-0",
+              index > 0 ? "lg:border-l lg:border-white/15 lg:border-t-0" : "lg:border-l-0",
+            ]
+              .filter(Boolean)
+              .join(" ");
+
             return (
-              <article key={item.title} className="px-0 py-8 md:px-8 lg:px-7">
+              <article key={item.title} className={`px-0 py-8 md:px-8 lg:px-7 ${dividerClass}`}>
                 <p className="text-sm font-semibold text-secondary">
                   {isCampusParty ? "Palestrante" : item.year}
                 </p>

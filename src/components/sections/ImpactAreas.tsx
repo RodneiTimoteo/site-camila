@@ -18,12 +18,12 @@ export default function ImpactAreas() {
             key={item.title}
             className="grid gap-5 py-7 md:grid-cols-[0.9fr_1.1fr] md:gap-7 lg:grid-cols-[0.85fr_1.15fr_1fr] lg:items-start lg:gap-10"
           >
-            <div className="grid grid-cols-[4rem_1fr] items-start gap-5 sm:grid-cols-[4.5rem_1fr] sm:gap-6">
-              <span className="block w-16 text-left text-5xl font-bold leading-none text-secondary sm:w-18 sm:text-6xl">
+            <div className="grid grid-cols-[3rem_1fr] items-start gap-4 sm:grid-cols-[4.5rem_1fr] sm:gap-6">
+              <span className="block w-12 text-left text-4xl font-bold leading-none text-secondary sm:w-18 sm:text-6xl">
                 {index + 1}
               </span>
 
-              <h3 className="max-w-sm pt-1 text-2xl font-bold leading-8 text-primary">
+              <h3 className="max-w-sm pt-0.5 text-xl font-bold leading-7 text-primary sm:pt-1 sm:text-2xl sm:leading-8">
                 {item.title}
               </h3>
             </div>

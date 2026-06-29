@@ -14,7 +14,7 @@ export default function Contact() {
   return (
     <Section id="contato" className="bg-site">
       <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">
-        <div className="relative min-h-[360px] overflow-hidden rounded-2xl sm:min-h-[460px] lg:min-h-[560px]">
+        <div className="relative min-h-[300px] overflow-hidden rounded-2xl sm:min-h-[460px] lg:min-h-[560px]">
           <Image
             src="/images/camila-contato.jpeg"
             alt="Camila Timóteo Vieira"

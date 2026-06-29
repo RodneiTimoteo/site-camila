@@ -21,7 +21,7 @@ export function MobileMenu() {
         <button
           type="button"
           aria-label="Abrir menu"
-          className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 text-slate-900 transition hover:bg-slate-100 md:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 text-slate-900 transition hover:bg-slate-100 lg:hidden"
         >
           <Menu className="h-5 w-5" aria-hidden="true" />
         </button>

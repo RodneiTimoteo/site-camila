@@ -22,7 +22,7 @@ export default function Logo({ className = "" }: LogoProps) {
           {siteConfig.shortName}
         </span>
 
-        <span className="block text-sm opacity-70">
+        <span className="hidden text-sm opacity-70 min-[380px]:block">
           Dados, Liderança e Produtividade
         </span>
       </span>

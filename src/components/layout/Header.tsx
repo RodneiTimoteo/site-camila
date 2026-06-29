@@ -13,7 +13,7 @@ export default function Header() {
 
         <nav
           aria-label="Navegação principal"
-          className="hidden items-center gap-5 md:flex"
+          className="hidden items-center gap-5 lg:flex"
         >
           {navigation.map((item) => (
             <Link
@@ -26,10 +26,10 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Link
             href="#contato"
-            className="inline-flex min-h-11 items-center justify-center rounded-xl bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
+            className="inline-flex min-h-11 items-center justify-center whitespace-nowrap rounded-xl bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
           >
             Fale Conosco
           </Link>
