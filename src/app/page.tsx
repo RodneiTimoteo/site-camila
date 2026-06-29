@@ -2,7 +2,6 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import AuthorityStats from "@/components/sections/AuthorityStats";
 import Footer from "@/components/layout/Footer";
-import CTA from "@/components/sections/CTA";
 import Testimonials from "@/components/sections/Testimonials";
 import ContentCommunity from "@/components/sections/ContentCommunity";
 import Contact from "@/components/sections/Contact";
@@ -50,19 +49,6 @@ export default function Home() {
         <ContentCommunity />
 
         <Contact />
-       <CTA
-          eyebrow="Vamos nos conectar?"
-          title="Conheça melhor meu trabalho, meus projetos e minha trajetória."
-          description="Entre em contato comigo para conversarmos sobre projetos, oportunidades, conteúdos e possíveis parcerias."
-          primaryAction={{
-            label: "Entrar em contato",
-            href: "#contato",
-          }}
-          secondaryAction={{
-            label: "Ver minha experiência",
-            href: "#experiencia",
-          }}
-        />
       </main>
 
       <Footer />
