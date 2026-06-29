@@ -8,7 +8,7 @@ import { navigation } from "@/data/navigation";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/85 backdrop-blur-md">
-      <Container className="flex h-20 items-center justify-between">
+      <Container className="flex min-h-22 items-center justify-between py-3">
         <Logo />
 
         <nav
