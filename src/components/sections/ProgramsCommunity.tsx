@@ -18,14 +18,6 @@ const mentorship = {
   ],
 } as const;
 
-const communityPresentation = {
-  eyebrow: "Educação & Comunidade",
-  title: "Kamys Academy",
-  description:
-    "Uma iniciativa dedicada à democratização do conhecimento e ao desenvolvimento profissional por meio de conteúdos sobre tecnologia, dados, liderança e produtividade.",
-  complement: "Educação que transforma conhecimento em crescimento.",
-} as const;
-
 export default function ProgramsCommunity() {
   const { mainProgram } = programsCommunityData;
 
@@ -111,28 +103,6 @@ export default function ProgramsCommunity() {
             ))}
           </div>
         </article>
-      </div>
-
-      <div className="mt-5 rounded-2xl border border-site border-l-[3px] border-l-[var(--color-secondary)] bg-surface px-7 py-8 sm:px-8 lg:flex lg:items-center lg:justify-between lg:gap-12">
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-secondary">
-            {communityPresentation.eyebrow}
-          </p>
-
-          <h3 className="mt-3 text-2xl font-bold text-primary">
-            {communityPresentation.title}
-          </h3>
-        </div>
-
-        <div className="mt-5 max-w-3xl lg:mt-0">
-          <p className="leading-7 text-muted-site">
-            {communityPresentation.description}
-          </p>
-
-          <p className="mt-3 font-semibold text-primary">
-            {communityPresentation.complement}
-          </p>
-        </div>
       </div>
     </Section>
   );
