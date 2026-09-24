@@ -10,10 +10,40 @@ import ProfessionalJourney from "@/components/sections/ProfessionalJourney";
 import ImpactAreas from "@/components/sections/ImpactAreas";
 import Achievements from "@/components/sections/Achievements";
 import ProgramsCommunity from "@/components/sections/ProgramsCommunity";
+import { siteConfig } from "@/data/site";
+import { socialLinks } from "@/data/social";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${siteConfig.url}/#website`,
+      url: siteConfig.url,
+      name: siteConfig.name,
+      description: siteConfig.description,
+      inLanguage: "pt-BR",
+    },
+    {
+      "@type": "Person",
+      "@id": `${siteConfig.url}/#person`,
+      name: siteConfig.name,
+      url: siteConfig.url,
+      image: `${siteConfig.url}/images/camila-hero.jpeg`,
+      jobTitle: "Data & AI Leader, educadora e palestrante",
+      sameAs: socialLinks.map((social) => social.url),
+    },
+  ],
+};
 
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       <Header />
 
       <main>
@@ -27,7 +57,7 @@ export default function Home() {
             href: "#trajetoria",
           }}
           secondaryAction={{
-            label: "Conheça meus programas",
+            label: "Conheça meus projetos",
             href: "#programas",
           }}
         />

@@ -12,7 +12,7 @@ export const aboutData = {
     {
       value: "Liderança",
       label:
-        "Tenho experiência na coordenação, orientação e desenvolvimento de equipes.",
+        "Tenho experiência na gestão, orientação e desenvolvimento de equipes.",
     },
     {
       value: "Produtividade",

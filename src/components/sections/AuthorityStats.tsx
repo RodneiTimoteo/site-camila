@@ -5,7 +5,7 @@ export default function AuthorityStats() {
   return (
     <section className="bg-site pb-16">
       <Container>
-        <div className="grid gap-4 rounded-2xl border border-site bg-surface p-5 shadow-sm sm:grid-cols-2 sm:p-6 lg:grid-cols-4">
+        <div className="grid gap-4 rounded-2xl border border-site bg-surface p-5 shadow-sm sm:grid-cols-2 sm:p-6 lg:grid-cols-3">
           {authorityStats.map((stat) => (
             <article
               key={stat.label}

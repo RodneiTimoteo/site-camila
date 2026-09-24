@@ -33,14 +33,14 @@ export default function ProgramsCommunity() {
       <div className="mt-12 grid items-start gap-6 lg:grid-cols-[1.45fr_1fr]">
         <article className="overflow-hidden rounded-2xl border border-site bg-surface">
           <div className="grid lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
-            <div className="relative aspect-[16/10] bg-primary lg:aspect-auto">
+            <div className="relative aspect-[4/5] bg-primary sm:aspect-[16/10] lg:aspect-auto">
               <Image
                 src={mainProgram.image}
-                alt="Camila compartilhando conhecimento"
+                alt="Camila Timóteo Vieira sentada, segurando um livro"
                 width={720}
                 height={640}
                 sizes="(max-width: 1024px) 100vw, 42vw"
-                className="h-full w-full object-cover object-center lg:h-auto"
+                className="h-full w-full object-cover object-top lg:h-auto lg:object-center"
               />
             </div>
 

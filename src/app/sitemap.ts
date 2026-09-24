@@ -1,10 +1,13 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
+
+import { siteConfig } from "@/data/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://camilatimoteovieira.com.br',
-      lastModified: new Date(),
+      url: siteConfig.url,
+      changeFrequency: "monthly",
+      priority: 1,
     },
-  ]
+  ];
 }
